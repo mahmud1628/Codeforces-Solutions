@@ -23,4 +23,8 @@ int main() {
     cout<<ans<<endl;
 }
 
-/* The idea is to take two people in the single kayaks and then calculate the instability of the tandem kayaks. We find every combination of those two people in the single kayaks and calculate the instability for every combination. As n<=50, the running time of O(n^3) won't give a TLE*/
+/* 
+The idea is to take two people in the single kayaks and then calculate the instability of the tandem kayaks. 
+We find every combination of those two people in the single kayaks and calculate the instability for every combination. 
+As n<=50, the running time of O(n^3) won't give a TLE
+*/

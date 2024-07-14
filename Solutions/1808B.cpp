@@ -28,3 +28,10 @@ int main() {
         cout<<ans<<endl;
     }
 }
+
+/*
+We repeatedly take a column and then sort it in a non-decreasing order.
+Here sum is the summation of elements in that column and curr is a running sum which is calculated by adding the element with previous curr when we encounter one element while traversing the sorted column.
+As the column is sorted, we can easily substract the first element from the next elements to obtain a part of the result. And this subtraction is done by subtracting the element (n-1-j) times from the summation of the next elements where (n-1-j) is the number of next elements in the sorted column. 
+We do this repeatedly for rest of the elements in the sorted column.
+*/
