@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main() {
+int main() { // watermelon
     int w;
     cin>>w;
     if(w==2) {
